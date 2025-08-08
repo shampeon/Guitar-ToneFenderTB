@@ -4761,7 +4761,7 @@
 		)
 	)
 	(gr_text "Fender Bass Treble tonestack\nv 1.0.0\nIan Evans\n08/07/2025\ngithub.com/shampeon/Guitar-ToneFenderTB\nWayWayWay"
-		(at 194.5 109.5 0)
+		(at 194.5 111 0)
 		(layer "B.SilkS")
 		(uuid "301f4841-2cbc-47ec-b6d2-9a20a688725e")
 		(effects
