@@ -1321,6 +1321,12 @@
 		(uuid "f70af78c-ecfe-4a74-96f2-46b9993628db")
 	)
 	(junction
+		(at 88.9 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01f4537a-09d6-4003-8e41-cfced7c5316b")
+	)
+	(junction
 		(at 88.9 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1346,13 +1352,23 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 54.61) (xy 93.98 54.61)
+			(xy 71.12 54.61) (xy 88.9 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0f3c596a-6741-4483-a317-515dd28bb63d")
+	)
+	(wire
+		(pts
+			(xy 88.9 54.61) (xy 88.9 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2852ce36-d291-4408-91c7-52698c099db1")
 	)
 	(wire
 		(pts
@@ -1373,16 +1389,6 @@
 			(type default)
 		)
 		(uuid "2fb753a8-7a09-4cf1-9b04-a26b4814bbe8")
-	)
-	(wire
-		(pts
-			(xy 88.9 54.356) (xy 88.9 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42e98974-18fa-43b9-bc64-ede4fd089261")
 	)
 	(wire
 		(pts
@@ -1513,6 +1519,16 @@
 			(type default)
 		)
 		(uuid "df5bb601-f463-4a75-b680-4dfa6c9400aa")
+	)
+	(wire
+		(pts
+			(xy 88.9 54.61) (xy 93.98 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee3abcfc-5987-4282-bffc-313a80f9da6a")
 	)
 	(wire
 		(pts
@@ -1899,7 +1915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L12.0mm_D6.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "Local:C_Axial_L12.0mm_D6.5mm_P15.00mm_Horizontal"
 			(at 101.6 81.5848 0)
 			(effects
 				(font
@@ -2728,7 +2744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L22.0mm_D9.5mm_P27.50mm_Horizontal"
+		(property "Footprint" "Local:C_Axial_L22.0mm_D9.5mm_P27.50mm_Horizontal"
 			(at 93.98 70.8152 0)
 			(effects
 				(font
